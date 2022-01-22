@@ -20,6 +20,13 @@ public class Alerts {
 		driver.manage().window().maximize();
 		driver.navigate().to("https://demoqa.com/alerts");
 	}
+	
+	
+	
+	//leaning automation testing the tool is selinium webdriver
+	//programming language is java
+	
+	
 	@Test
 	public void handlingAlerts() throws InterruptedException {
 		driver.findElement(By.id("alertButton")).click();
