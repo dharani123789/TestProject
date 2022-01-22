@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="TestCases.Actions"/>
+      <class name="TestCases.WindowHandling"/>
+       <class name="TestCases.Screenshot"/>      
+      <class name="TestCases.Alerts"/>
+      <class name="TestCases.CheckboxRadiobutton"/>
+      <class name="TestCases.Dropdown"/>
+      <class name="TestCases.FileUpload"/>
+      <class name="TestCases.PrintAllLinks"/>     
+      <class name="TestCases.Scrolling"/>
+      <class name="TestCases.Testcase1"/>
+      <class name="TestCases.TitleUrlPagesource"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
